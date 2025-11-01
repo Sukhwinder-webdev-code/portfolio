@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Taaj Avenue</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.comcss?family=Montserrat" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <!--This is navigation section-->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="Aboutus.html">About</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!--This is a contact form section-->
+  <div class="whole-contact-container">
+    <div class="tags-container">
+      <h3>Contact Us:</h3>
+      <p>We are here to help you 24/7. Fill out the form or contact us directly</p>
+    </div>
+    <div class="contact-details-container">
+      <div class="contact-form">
+        <form id="contact" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required minlength="2">
+            <span class="error-message" id="name-error">Please enter a valid Name</span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-message" id="email-error">Please enter a valid Email</span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+            <span class="error-message" id="phone-error">Please enter a valid phone number</span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <div class="adress">
+          <h3>Address:</h3>
+          <p>12 xyz street London</p>
+          <h3>Phone:</h3>
+          <p>00061622</p>
+          <h3>Email:</h3>
+          <p>TaajAvenue@abc.com</p>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.099154024038!2d1.2385088765730357!3d52.62205227208806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e0d87b805801%3A0xb9b97bf00744e573!2sUniversity%20of%20East%20Anglia!5e0!3m2!1sen!2suk!4v1755284498527!5m2!1sen!2suk"
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--This is footer section-->
+  <footer>
+    <div class="footer-container">
+      <!--We are creating div here bcz it helps in positioning,padding and layout etc. later in css-->
+      <p>&copy 2025 Taaj Avenue. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="Aboutus.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+      <p class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

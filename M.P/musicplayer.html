@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="musicplayer.css">
+</head>
+
+<body>
+    <div class="nav-container">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="maindiv">
+        <div class="audio-container">
+            <div class="audio">
+                <h1>Track: Hip Hop 2</h1>
+                <p>Artist: Lily J</p>
+                <audio id="player1" src="audio/sound1.mp3"></audio>
+                <div class="button-container">
+                    <button onclick="document.getElementById('player1').play()">Play</button>
+                    <button onclick="document.getElementById('player1').pause()">Pause</button>
+                    <button
+                        onclick="document.getElementById('player1').muted=!document.getElementById('player1').muted">Mute/Unmute</button>
+                </div>
+
+            </div>
+            <div class="audio">
+                <h1>Track: Tech House Vibes </h1>
+                <p>Artist: Alejandro Magaña </p>
+                <audio id="player2" src="audio/sound2.mp3"></audio>
+                <div class="button-container">
+                    <button onclick="document.getElementById('player2').play()">Play</button>
+                    <button onclick="document.getElementById('player2').pause()">Pause</button>
+                    <button
+                        onclick="document.getElementById('player2').muted=!document.getElementById('player2').muted">Mute/Unmute</button>
+                </div>
+
+            </div>
+            <div class="audio">
+                <h1>Track: Beautiful Dream</h1>
+                <p>Artist: Diego Nava</p>
+                <audio id="player3" src="audio/sound3.mp3"></audio>
+                <div class="button-container">
+                    <button onclick="document.getElementById('player3').play()">Play</button>
+                    <button onclick="document.getElementById('player3').pause()">Pause</button>
+                    <button
+                        onclick="document.getElementById('player3').muted=!document.getElementById('player3').muted">Mute/Unmute</button>
+                </div>
+
+            </div>
+            <div class="audio">
+                <h1>Track: Can't Get You Off My Mind</h1>
+                <p>Artist: Micheal Ramir C</p>
+                <audio id="player4" src="audio/sound4.mp3"></audio>
+                <div class="button-container">
+                    <button onclick="document.getElementById('player4').play()">Play</button>
+                    <button onclick="document.getElementById('player4').pause()">Pause</button>
+                    <button
+                        onclick="document.getElementById('player4').muted=!document.getElementById('player4').muted">Mute/Unmute</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="picture-container">
+            <h1>Artist: Babbu Maan</h1>
+            <img src="babbumaan.webp">
+        </div>
+        <div class="video-container">
+            <div class="video">
+                <p>Video: Gypsy Kali</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9BO74_1oCk?si=pIhPh37BV0kwuH79"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <p>Video: Touchwood</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ORk5aczQ-FI?si=WkDTUolEjsX_JadR"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
