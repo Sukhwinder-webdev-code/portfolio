@@ -6,7 +6,7 @@
 html,body {
     height:100%;
     width:100%;
-    background-color: black;
+    background-color:#111111;
 
 }
 body {
@@ -23,35 +23,34 @@ body {
     top:0;
     z-index:1000;
 }
-ul {
+.nav-container ul {
     display:flex;
     gap:40px;
     padding:5px 0;
     font-family:sans-serif;
     font-weight:600;
 }
-ul li{
+.nav-container ul li{
     list-style:none;
 }
-ul li a {
+.nav-container ul li a {
     color:bisque;
     text-decoration:none;
+    transition:all 0.5s ease;
 }
-ul li a:hover {
+.nav-container ul li a:hover {
     color:black;
     opacity:0.3;
-    transform:scale(1.05);
-    transition:transform 0.2s, opacity 0.2s, color 0.2s;
+    transform:scaleX(-3px);
 
 }
 
 .maindiv {
     display:flex;
     gap:20px;
-    flex-direction:row;
+    flex-wrap: wrap;
     background-color: black;
     color:antiquewhite;
-    position:relative;
     width:100%;
     padding-top:20px;
     justify-content:center;

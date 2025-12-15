@@ -2,16 +2,19 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Taaj Avenue-Menu</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="http://fonts.googleapis.comcss?family=Montserrat" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
   <!--This is navigation section-->
-  <nav>
-    <ul>
+   <nav>
+    <div id="ham-container"><i class="fa-solid fa-bars hamburger"></i></div>
+    <ul id="navigation-items">
       <li><a href="home.html">Home</a></li>
       <li><a href="menu.html">Menu</a></li>
       <li><a href="gallery.html">Gallery</a></li>
@@ -33,15 +36,15 @@
         <div class="north-food-items">
           <figure class="food-img">
             <img src="images/paneer-butter.jpg" alt="paneer butter masala">
-            <figcaption>Paneer Butter Masala – ₹220</figcaption>
+            <figcaption id="4" class="item-1">Paneer Butter Masala – ₹220</figcaption>
           </figure>
           <figure class="food-img">
             <img src="images/chole-bhature.webp" alt="chol bhature">
-            <figcaption>Chole Bhature – ₹150</figcaption>
+            <figcaption id="11" class="item-1">Chole Bhature – ₹150</figcaption>
           </figure>
           <figure class="food-img">
             <img src="images/rajmah-chawal.jpg">
-            <figcaption>Rajma Chawal – ₹140</figcaption>
+            <figcaption id="1" class="item-1">Rajma – ₹140</figcaption>
           </figure>
         </div>
       </div><br>
@@ -50,15 +53,15 @@
         <div class="south-food-items">
           <figure class="food-img">
             <img src="images/masaladosa.webp" alt="Masala Dosa">
-            <figcaption>Masala Dosa – ₹90</figcaption>
+            <figcaption id="6" class="item-1">Masala Dosa – ₹90</figcaption>
           </figure>
           <figure class="food-img">
             <img src="images/idli-sambhar.webp" alt="Idli Sambhar">
-            <figcaption>Idli Sambhar – ₹70</figcaption>
+            <figcaption id="12" class="item-1">Idli Sambhar – ₹70</figcaption>
           </figure>
           <figure class="food-img">
             <img src="images/medu-vada.jpg" alt="Medu Vada">
-            <figcaption>Medu Vada – ₹60</figcaption>
+            <figcaption id="13" class="item-1">Medu Vada – ₹60</figcaption>
           </figure>
         </div>
       </div><br>
@@ -67,15 +70,15 @@
         <div class="street-food-items">
           <figure class="food-img">
             <img src="images/pani-puri.webp" alt="Pani Puri">
-            <figcaption>Pani Puri – ₹50</figcaption>
+            <figcaption id="14" class="item-1">Pani Puri – ₹50</figcaption>
           </figure>
           <figure class="food-img">
             <img src="images/samosa.jpg" alt="Samosa">
-            <figcaption>Samosa – ₹25</figcaption>
+            <figcaption id="15" class="item-1">Samosa – ₹25</figcaption>
           </figure>
           <figure class="food-img">
             <img src="images/pav-bhaji.jpg" alt="Pav Bhaji">
-            <figcaption>Pav Bhaji – ₹95</figcaption>
+            <figcaption id="16" class="item-1">Pav Bhaji – ₹95</figcaption>
           </figure>
         </div>
       </div>
@@ -102,6 +105,7 @@
       </p>
     </div>
   </footer>
+  <script src="style.js"></script>
 </body>
 
 </html>

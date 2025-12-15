@@ -2,24 +2,27 @@
 <html>
 
 <head>
-  <title>Taaj Avenue</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taaj Avenue-Menu</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="http://fonts.googleapis.comcss?family=Montserrat" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
+  <!--This is navigation section-->
+  <nav>
+    <div id="ham-container"><i class="fa-solid fa-bars hamburger"></i></div>
+    <ul id="navigation-items">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about-us.html">About</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+    </ul>
+  </nav>
   <div class="background">
-    <!--This is navigation section-->
-    <nav>
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="About-us.html">About</a></li>
-        <li><a href="contactus.html">Contact</a></li>
-      </ul>
-    </nav>
     <!--This is gallery section-->
     <div id="main-gallery-container">
       <div class="hero-gallery">
@@ -33,7 +36,6 @@
             a veg medium burger having tomatoes
           </figcaption>
         </figure>
-
         <figure>
           <img src="images/burger1.jpg" alt="a non-veg medium burger having chicken tomatoes and lettus"
             title="a medium chicken burger" />
@@ -138,6 +140,7 @@
       </p>
     </div>
   </footer>
+  <script src="style.js"></script>
 </body>
 
 </html>
