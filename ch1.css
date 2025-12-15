@@ -499,6 +499,7 @@ nav ul li {
     gap: 3em;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .projects-container figcaption:hover {

@@ -41,7 +41,3 @@ email.addEventListener('click', ()=>{
     setTimeout(removeText,2000);
     
 })
-email.addEventListener('hover')
-function removeText(){
-    showText.textContent="";
-}

@@ -10,13 +10,12 @@ html,body {
 
 }
 body {
-    padding-top:50px;
+    /* padding-top:50px; */
 }
 .nav-container {
     height:40px;
     width:100%;
     display:flex;
-    position:fixed;
     background-color: rgba(143, 188, 143, 0.319);
     justify-content:center;
     align-items:center;
@@ -132,12 +131,21 @@ iframe {
     
 
 }
-@media (max-width:600px) {
+@media (max-width:1200px) {
+    .audio-container {
+    width:70%;
+    }
+}
+@media (max-width:768px) {
     .maindiv {
         flex-direction:column;
         align-items:center;
         justify-content:center;
         padding-top:60px;
+    }
+    .audio-container, .picture-container, .video-container {
+    width:70%;
+    padding:4px;
     }
     .audio-container, .picture-container, .video-container {
         width:100%;
