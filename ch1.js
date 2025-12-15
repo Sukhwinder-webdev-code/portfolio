@@ -30,3 +30,18 @@ theme.addEventListener('click', () => {
         document.body.setAttribute('data-theme', 'dark');
     }
 })
+
+//to copy email to clipboard
+
+var email=document.querySelector('.copy');
+var showText=document.querySelector('.tooltip');
+email.addEventListener('click', ()=>{
+    navigator.clipboard.writeText('sukhi.handa43@gmail.com');
+    showText.textContent="text copied to clipboard";
+    setTimeout(removeText,2000);
+    
+})
+email.addEventListener('hover')
+function removeText(){
+    showText.textContent="";
+}

@@ -9,19 +9,21 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: var(--bg-color);
-    color:var(--text-color);
+    color: var(--text-color);
 }
+
 :root {
-    --bg-color:#F9F9F9;
-    --text-color:#111111;
-    --accent-color:#FF6B6B;
-    --border-color:#E0E0E0;
+    --bg-color: #F9F9F9;
+    --text-color: #111111;
+    --accent-color: #FF6B6B;
+    --border-color: #E0E0E0;
 }
+
 [data-theme="dark"] {
     --bg-color: #1E1E1E;
-    --text-color:#FFFFFF;
-    --accent-color:#f75252;
-    --border-color:#333333;
+    --text-color: #FFFFFF;
+    --accent-color: #f75252;
+    --border-color: #333333;
 }
 
 .hero-wraper {
@@ -83,7 +85,7 @@ nav ul li {
 }
 
 a {
-    color:bisque;
+    color: bisque;
     text-decoration: none;
 }
 
@@ -164,7 +166,7 @@ i.ham-menu {
 }
 
 .logo:hover {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
 .tagline,
@@ -218,7 +220,7 @@ nav ul li {
     border-color: var(--accent-color);
     box-shadow: 0 0 10px var(--accent-color), 0 0 20px var(--accent-color);
     color: var(--accent-color);
-    transform:translateY(-3px)
+    transform: translateY(-3px)
 }
 
 #read-more {
@@ -372,9 +374,10 @@ nav ul li {
 
 #toggle-container .toggle {
     margin-top: 1.2rem;
-    padding:4px;
+    padding: 4px;
     font-weight: bold;
 }
+
 .main-about-container {
     min-width: 100%;
     min-height: 100%;
@@ -421,17 +424,18 @@ nav ul li {
     font-family: "Recursive";
     font-weight: 500;
     font-size: 1.2em;
-    border:2px solid var(--border-color);
+    border: 2px solid var(--border-color);
     background-color: var(--accent-color);
-    transition:all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 #about-btn:hover {
-    border-color:var(--accent-color);
+    border-color: var(--accent-color);
     transform: translateY(-3px);
 }
+
 #portfolio-link {
-    color:var(--text-color);
+    color: var(--text-color);
 
 }
 
@@ -496,12 +500,15 @@ nav ul li {
     justify-content: center;
     align-items: center;
 }
+
 .projects-container figcaption:hover {
     color: var(--accent-color);
 }
+
 .projects-container img {
-    border:var(--border-color);
+    border: var(--border-color);
 }
+
 figure {
     font-weight: 500;
     font-family: cursive;
@@ -513,7 +520,7 @@ figure {
 
 figure:hover {
     opacity: 0.8;
-    transform:translateY(-5px);
+    transform: translateY(-5px);
 }
 
 @media (max-width:1024px) {
@@ -549,9 +556,9 @@ figure:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap:10px;
+    gap: 10px;
     line-height: 1.5em;
-    padding:2rem;
+    padding: 2rem;
 
 }
 
@@ -563,18 +570,35 @@ figure:hover {
 
 }
 
+.copy {
+    cursor: pointer;
+}
+#showTooltip {
+    position: relative;
+}
+.tooltip {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+}
+
 #section-2 {
     display: flex;
-    gap:8px;
+    gap: 8px;
     flex-wrap: wrap;
     align-items: center;
 }
+
 .scale-up {
-    transition:all 0.5s ease;
+    transition: all 0.5s ease;
 }
+
 .scale-up:hover {
-    transform:translateY(-3px);
-    color:var(--accent-color);
+    transform: translateY(-3px);
+    color: var(--accent-color);
 }
 
 .contactme-btn {
@@ -584,8 +608,8 @@ figure:hover {
     margin: 10px;
     height: 2em;
     width: 8em;
-    background-color:var(--accent-color);
-    border:2px solid var(--border-color);
+    background-color: var(--accent-color);
+    border: 2px solid var(--border-color);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -597,11 +621,13 @@ figure:hover {
     color: var(--text-color);
     font-weight: bold;
 }
+
 #contactme hr {
     height: 10px;
-    width:3px;
+    width: 3px;
     background-color: black;
 }
+
 .toggle {
     cursor: pointer;
 }
@@ -637,19 +663,24 @@ figure:hover {
 #skills-ul {
     line-height: 1.8em;
 }
+
 #FE-skills {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-#T_E, #O_N , #s_s{
+
+#T_E,
+#O_N,
+#s_s {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 
 }
+
 button {
-    background-color:var(--accent-color);
-    border:2px solid var(--border-color);
-    color:var(--text-color);
+    background-color: var(--accent-color);
+    border: 2px solid var(--border-color);
+    color: var(--text-color);
 }
