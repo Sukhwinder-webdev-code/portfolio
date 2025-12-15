@@ -16,4 +16,4 @@ A responsive personal portfolio website showcasing my projects, skills, and cont
 ## Author
 Sukhwin Der Kaur  
 Email: sukhi.handa43@gmail.com  
-
+Portfolio: https://sukhwinder-webdev-code.github.io/portfolio/
