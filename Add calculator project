@@ -1,0 +1,87 @@
+projects/calculator/index.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My calculator</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .calculator {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(230, 228, 228);
+            height: 500px;
+            width: 400px;
+            border: 2px solid green;
+            margin: 0 auto;
+        }
+
+        .inputFields {
+            padding: 4px;
+            background-color: white;
+            font-size: 18px;
+            text-align: center;
+            width:40%;
+        }
+        .buttons-container {
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:20px;
+            justify-items: center;
+        }
+        .operation, .clear {
+            width: 150px;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            padding:4px;
+        }
+        .clear {
+            align-self: center;
+            margin:10px;
+        }
+        #resultDisplay{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:white;
+            border:1px black;
+            border-style: dotted;
+            height:50px;
+            width:50%;
+            align-self: center;
+            margin-top: 2px;
+        }
+        .input-container {
+            margin:30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My javaScript Calculator</h1>
+    <div class="calculator">
+        <div class="input-container">
+        <input id="input1" class="inputFields" type="text">
+        <input id="input2" class="inputFields" type="text">
+        </div>
+        <p id="resultDisplay"></p>
+        <div class="buttons-container">
+            <button onclick="calculate('ADD');" class="operation">ADD</button>
+            <button onclick="calculate('SUBTRACT')" class="operation">SUBTRACT</button>
+            <button onclick="calculate('MULTIPLY')" class="operation">MULTIPLY</button>
+            <button onclick="calculate('DIVIDE')" class="operation">DIVIDE</button>
+        </div>
+        <button onclick="clearAll();" class="clear">clearAll</button>
+    </div>
+    <script src="calculatorJS.js"></script>
+</body>
+
+</html>
