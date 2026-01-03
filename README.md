@@ -9,11 +9,13 @@ A responsive personal portfolio website showcasing my projects, skills, and cont
 - Interactive project gallery
 
 ## Technologies Used
-- HTML5, CSS3, JavaScript (ES6)
+- HTML5
+- CSS3
+- JavaScript (ES6)
 - Font Awesome icons
 - GitHub Pages for hosting
 
 ## Author
-Sukhwin Der Kaur  
+Sukhwinder Kaur  
 Email: sukhi.handa43@gmail.com  
 Portfolio: https://sukhwinder-webdev-code.github.io/portfolio/
