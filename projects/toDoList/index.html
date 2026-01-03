@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY TO DO LIST</title>
+</head>
+
+<body>
+    <header style="display: flex; justify-content: center;">
+        <h1 style="border-bottom: 2px solid black;">MY TO-DO LIST</h1>
+    </header>
+    <main style="display:flex; justify-content: center; margin-top:20px; gap: 8px;">
+        <input id="entered-task" type="text" style="width:350px">
+        <button onclick="addTask();" id="task-btn" type="submit" style="font-weight: bold; font-size:15px;">ADD TASK</button>
+        <button onclick="removeTask();" id="remove-task" style="font-weight: bold; font-size:15px; ">REMOVE TASK</button>
+    </main>
+    <section style="justify-self: center; width:500px; margin:10px 0 0 0; height:500px; font-size:24px">
+        <ul id="list-items" style="overflow:auto;">
+
+        </ul>
+    </section>
+    <script src="task_list.js"></script>
+</body>
+
+</html>
