@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Banking System</title>
+    <style>
+        #account {
+            padding: 4px;
+        }
+
+        .bankContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .displayResult {
+            margin-top:10px;
+            font-size:18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bankContainer">
+        <h1>Simple Banking System</h1>
+        <div>
+            <label for="accountNo"></label>
+            <input id="account" name="account" type="text" placeholder="enter account number" required>
+            <input id="amountHolder" type="text" placeholder="enter amount">
+            <button class="operation" id="check" id="check">Check Balance</button>
+            <button class="operation" id="withdraw">Withdraw Money</button>
+            <button class="operation" id="deposit">Deposit</button>
+        </div>
+        <div class="displayResult">
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
