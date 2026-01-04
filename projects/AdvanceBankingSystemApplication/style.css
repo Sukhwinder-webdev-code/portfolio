@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width:100%;
+    background-color:whitesmoke;
+
+}
+.whole-container 
+{
+    width:100%;
+    max-width:60vw;
+    justify-self: center;
+    margin-top:10px;
+    display: flex;
+    background-color:white;
+    flex-direction: column;
+    gap:16px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.holderName, .initialBalance, .accountNumber, .amount {
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+#name, #balance, #account, #amount {
+    padding: 4px 2px;
+}
+.btn {
+    background-color:#5d5df7ee;
+    min-height:1.5rem;
+    padding:8px auto;
+    color:white;
+    cursor: pointer;
+}
+#displayResults{
+    background-color: #ffffff99;
+    min-height: 1.5rem;
+    padding:2px;
+}
