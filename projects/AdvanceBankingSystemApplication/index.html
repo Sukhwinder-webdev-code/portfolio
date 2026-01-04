@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Syestem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="whole-container">
+        <h1>Banking System</h1>
+        <section class="holderName">
+            <label for="name">Account Holder Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter Name">
+        </section>
+        <section class="initialBalance">
+            <label for="balance">Initial Balance</label>
+            <input id="balance" name="balance" type="text" inputmode="numeric" placeholder="Enter initial balance">
+            <button id="create" type="button" class="btn">Create Account</button>
+        </section>
+        <section class="accountNumber">
+            <label for="account">Account Number</label>
+            <input id="account" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="10"
+                placeholder="10-digit account number">
+        </section>
+        <section class="amount">
+            <label for="amount">Amount</label>
+            <input id="amount" name="amount" type="text" inputmode="numeric" pattern="[0-9]*"
+                placeholder="Enter amount">
+            </section>
+            <button id="deposit" type="button" class="btn">Deposit</button>
+            <button id="withdraw" type="button" class="btn">Withdraw</button>
+            <button id="check" type="button" class="btn">Check Balance</button>
+            <p id="displayResults"></p>
+        </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
