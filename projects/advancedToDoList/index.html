@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do-List Application</title>
+    <style>
+        .mainContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .enteredTask {
+            padding: 4px;
+            width: 100%;
+            max-width: 50vw;
+            ;
+            font-size: 16px;
+        }
+
+        #displayResults {
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+        }
+
+        #addBtn {
+            margin-top: 8px;
+            background-color: rgb(89, 189, 189);
+            color: brown;
+            font-weight: bold;
+            width: 20%;
+            padding: 2px
+        }
+
+        .rmvButton {
+            background-color: rgb(255, 189, 200);
+        }
+
+        .listItemStyle {
+            display: flex;
+            list-style-type: none;
+            gap: 10px;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="mainContainer">
+        <input class="enteredTask" type="text" placeholder="Please enter a task to add">
+        <button id="addBtn">ADD TASK</button>
+        <ul id="displayResults">
+
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
