@@ -21,5 +21,6 @@ Email: sukhi.handa43@gmail.com
 
 ## Projects
 Portfolio: https://sukhwinder-webdev-code.github.io/portfolio/
+
 MyToDoListApplication: https://sukhwinder-webdev-code.github.io/portfolio/projects/advancedToDoList/
 
