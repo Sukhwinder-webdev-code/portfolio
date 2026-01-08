@@ -22,7 +22,7 @@ Email: sukhi.handa43@gmail.com
 ## Projects
 Portfolio: https://sukhwinder-webdev-code.github.io/portfolio/
 
-hotelWebsite:  https://sukhwinder-webdev-code.github.io/portfolio/hotel/
+hotelWebsite:  https://sukhwinder-webdev-code.github.io/portfolio/projects/hotel/
 
 MyToDoListApplication: https://sukhwinder-webdev-code.github.io/portfolio/projects/advancedToDoList/
 
