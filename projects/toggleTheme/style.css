@@ -6,8 +6,15 @@
 
 :root {
     --bg: #ff69b4ac;
+    --text-color:#000;
+    --card-bg:#f5c7def4;
 }
 
+.dark {
+    --bg: #0A0F0D;
+    --text-color:#fff;
+    --card-bg:#1a1a2e;
+}
 .dark {
     --bg: #0A0F0D;
 }
