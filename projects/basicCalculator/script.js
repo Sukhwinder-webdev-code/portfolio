@@ -9,22 +9,19 @@ function calculate(operation) {
     value1 = parseFloat(value1);
     value2 = parseFloat(value2);
     check = operation;
-    if (isNaN(value1 && value2)) {
+    if (isNaN(value1) || isNaN(value2)) {
         document.querySelector('#resultDisplay').textContent = "Enter valid numbers!";
     }
     else {
         switch (check) {
             case 'ADD':
                 result = `${value1} + ${value2} ${'='} ${value1 + value2}`;
-                // document.querySelector('#resultDisplay').innerText = result;
                 break;
             case 'SUBTRACT':
                 result = `${value1} - ${value2} ${'='} ${value1 - value2}`;
-                // document.querySelector('#resultDisplay').innerText = result;
                 break;
             case 'MULTIPLY':
                 result = `${value1} * ${value2} ${'='} ${value1 * value2}`;
-                // document.querySelector('#resultDisplay').innerText = result;
                 break;
             case 'DIVIDE':
                 if (value2 === 0) {
@@ -33,8 +30,6 @@ function calculate(operation) {
                 }
                 else {
                     result = `${value1} / ${value2} ${'='} ${value1 / value2}`;
-                    // document.querySelector('#resultDisplay').innerText = result;
-                    // break;
                 }
 
         }
