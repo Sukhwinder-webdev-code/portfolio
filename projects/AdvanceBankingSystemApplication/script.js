@@ -17,8 +17,7 @@ class Customer {
         }
         else {
             this.balance -= amount;
-            return `Rs ${
-                amount} withdrawn! Now balance is ${this.balance}`;
+            return `Rs ${amount} withdrawn! Now balance is ${this.balance}`;
         }
     }
 
@@ -46,7 +45,7 @@ operation.forEach(item => {
                 handleTransaction('deposit');
                 break;
         }
-       
+
     })
 });
 // function to check if the entered details are valid;
@@ -66,11 +65,10 @@ function checkDetails() {
 //function expression to check balance of the user
 const check = () => {
     let user = checkDetails();
-    console.log(user);
     if (user) {
         let message = user.checkBalance();
         showResults(message);
-         document.getElementById('amount').value = "";
+        document.getElementById('amount').value = "";
         document.querySelector('#account').value = "";
         document.getElementById('balance').value = "";
         document.getElementById('name').value = "";
@@ -87,10 +85,10 @@ function handleTransaction(data) {
     if (amount <= 0) { showResults("Please enter a valid amount first"); return; }
     let message = data === 'withdraw' ? user.withdraw(amount) : user.deposit(amount);
     showResults(message);
-     document.getElementById('amount').value = null;
-        document.querySelector('#account').value = null;
-        document.getElementById('balance').value = null;
-        document.getElementById('name').value = "";
+    document.getElementById('amount').value = null;
+    document.querySelector('#account').value = null;
+    document.getElementById('balance').value = null;
+    document.getElementById('name').value = "";
 }
 
 //function to show results/
@@ -108,13 +106,16 @@ function createAccount() {
     if (customerName) {
         let newAccountNumber = Math.floor(Math.random() * 9000000000) + 1000000000;
         let initialBalance = Number(document.getElementById('balance').value);
-        customers.set(newAccountNumber, new Customer(customerName, newAccountNumber, initialBalance));
-        Details = `New account created for ${customerName}! Account number: ${newAccountNumber}. Balance: ${initialBalance}`;
-        showResults(Details);
-         document.getElementById('amount').value = "";
-        document.querySelector('#account').value = "";
-        document.getElementById('balance').value = "";
-        document.getElementById('name').value = "";
+        if (initialBalance < 0 || isNaN(initialBalance)) showResults("Please enter a valid amount");
+        else {
+            customers.set(newAccountNumber, new Customer(customerName, newAccountNumber, initialBalance));
+            Details = `New account created for ${customerName}! Account number: ${newAccountNumber}. Balance: ${initialBalance}`;
+            showResults(Details);
+            document.getElementById('amount').value = "";
+            document.querySelector('#account').value = "";
+            document.getElementById('balance').value = "";
+            document.getElementById('name').value = "";
+        }
 
     }
     else showResults("Please enter your name first!");
