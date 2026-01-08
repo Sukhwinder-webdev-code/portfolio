@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="w-screen h-[300px] ">
+    <div class="mt-9 h-[80vh] w-[400px] bg-gray-500 text-white text-3xl mx-auto">
+        <header class="bg-white text-black border-2 flex py-4 pr-8 items-center justify-end">
+            <input type="text" class="data" id="displayData" value="0">
+        </header>
+
+
+
+
+        <main class="grid grid-rows-5 grid-cols-4 gap-4 pt-8 justify-center items-center text-center">
+            <p onclick="clearLast();" id="clearlast"
+                class="clear flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">X</p>
+            <p onclick="clearAll();" id="clearAll"
+                class="clear flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">AC</p>
+            <p onclick="pressOperator('%');"
+                class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">%</p>
+            <p onclick="pressOperator('/');"
+                class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">/</p>
+            <p onclick="pressNumber(7);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                7</p>
+            <p onclick="pressNumber(8);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                8</p>
+            <p onclick="pressNumber(9);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                9</p>
+            <p onclick="pressOperator('*');" id="multiply"
+                class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">*</p>
+            <p onclick="pressNumber(4);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                4</p>
+            <p onclick="pressNumber(5);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                5</p>
+            <p onclick="pressNumber(6);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                6</p>
+            <p onclick="pressOperator('-');"
+                class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">-</p>
+            <p onclick="pressNumber(1);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                1</p>
+            <p onclick="pressNumber(2);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                2</p>
+            <p onclick="pressNumber(3);" class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">
+                3</p>
+            <p onclick="pressOperator('+');" id="add" onclick="key_click(event)"
+                class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">+</p>
+            <p onclick="changeSign();" class="flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">+/-</p>
+            <p onclick="pressNumber(0)" class="flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">0</p>
+            <p onclick="pressNumber('.');"
+                class="text flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">.</p>
+            <p onclick="pressEquals();" class="flex bg-white text-black m-2 p-[2px] rounded-full justify-center ">=</p>
+        </main>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
