@@ -26,7 +26,8 @@ hotelWebsite:  https://sukhwinder-webdev-code.github.io/portfolio/projects/hotel
 
 MyToDoListApplication: https://sukhwinder-webdev-code.github.io/portfolio/projects/advancedToDoList/
 
-https://sukhwinder-webdev-code.github.io/portfolio/React-Project
+Live Demo: https://React-Project.vercel.app
+
 
 BankingSysteApplication:  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvanceBankingSystemApplication/
 
