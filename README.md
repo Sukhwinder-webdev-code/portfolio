@@ -19,15 +19,20 @@ A responsive personal portfolio website showcasing my projects, skills, and cont
 Sukhwinder Kaur  
 Email: sukhi.handa43@gmail.com  
 
+
 ## Projects
 Portfolio: https://sukhwinder-webdev-code.github.io/portfolio/
+
+### Movie Review App
+A React app using the TMDB API to browse popular movies:-
+
+**Live Demo:** https://sukhwinder-webdev-code.github.io/React-Project/  
+**GitHub Repo:** https://github.com/Sukhwinder-webdev-code/React-Project
+
 
 hotelWebsite:  https://sukhwinder-webdev-code.github.io/portfolio/projects/hotel/
 
 MyToDoListApplication: https://sukhwinder-webdev-code.github.io/portfolio/projects/advancedToDoList/
-
-Live Demo: https://React-Project.vercel.app
-
 
 BankingSysteApplication:  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvanceBankingSystemApplication/
 
