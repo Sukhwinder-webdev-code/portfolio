@@ -33,7 +33,7 @@ A React app using the TMDB API to browse popular movies:-
 ### Password Generator App
 A React password generator to generate random passwords based on selected length, include/exclude characters and numbers.
 
-**Live Demo:** https://sukhwinder-webdev-code.github.io//React-Password-Generator 
+**Live Demo:** https://sukhwinder-webdev-code.github.io//React-Password-Generator  
 **GitHub Repo:** https://github.com/Sukhwinder-webdev-code/React-Password-Generator
 
 
