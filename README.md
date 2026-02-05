@@ -14,6 +14,7 @@ A responsive personal portfolio website showcasing my projects, skills, and cont
 - JavaScript (ES6)
 - Font Awesome icons
 - GitHub Pages for hosting
+- React
 
 ## Author
 Sukhwinder Kaur  
@@ -29,14 +30,19 @@ A React app using the TMDB API to browse popular movies:-
 **Live Demo:** https://sukhwinder-webdev-code.github.io/React-Project/  
 **GitHub Repo:** https://github.com/Sukhwinder-webdev-code/React-Project
 
+### Password Generator App
+A React password generator to generate random passwords based on selected length, include/exclude characters and numbers.
 
-hotelWebsite:  https://sukhwinder-webdev-code.github.io/portfolio/projects/hotel/
+**Live Demo:** https://sukhwinder-webdev-code.github.io//  
+**GitHub Repo:** https://github.com/Sukhwinder-webdev-code/React-Password-Generator
 
-MyToDoListApplication: https://sukhwinder-webdev-code.github.io/portfolio/projects/advancedToDoList/
+**hotelWebsite** :  https://sukhwinder-webdev-code.github.io/portfolio/projects/hotel/
 
-BankingSysteApplication:  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvanceBankingSystemApplication/
+**MyToDoListApplication**: https://sukhwinder-webdev-code.github.io/portfolio/projects/advancedToDoList/
 
-Calculator:  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvancedCalculator/
+**BankingSysteApplication**:  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvanceBankingSystemApplication/
 
-DarkLightMode:  https://sukhwinder-webdev-code.github.io/portfolio/projects/toggleTheme/
+**Calculator:**  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvancedCalculator/
+
+**DarkLightMode:**  https://sukhwinder-webdev-code.github.io/portfolio/projects/toggleTheme/
 
