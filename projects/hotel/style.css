@@ -22,9 +22,10 @@ body {
 h2 {
     font-size: 1.4 rem;
     color: #b0b0b8;
-
 }
-
+.cart {
+    color:white;
+}
 .description {
     background-color: rgba(250, 250, 250, 0.1);
     padding: 20px;
