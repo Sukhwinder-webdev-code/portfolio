@@ -24,7 +24,15 @@ h2 {
     color: #b0b0b8;
 }
 .cart {
-    color:white;
+    background:white;
+    padding:4px;
+    border-radius:10px;
+    position: absolute;
+    right:30px;
+    top:10px;
+}
+.navigation {
+    position: relative;
 }
 .description {
     background-color: rgba(250, 250, 250, 0.1);
