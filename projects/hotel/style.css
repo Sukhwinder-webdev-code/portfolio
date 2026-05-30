@@ -24,7 +24,7 @@ h2 {
     color: #b0b0b8;
 }
 .cart {
-    background:white;
+    background-color:white;
     padding:4px;
     border-radius:10px;
     position: absolute;
@@ -301,6 +301,10 @@ footer {
         max-height: 200px;
         opacity: 1;
         pointer-events: auto;
+    }
+    .cart {
+        left:30px;
+        right:auto;
     }
 
 
