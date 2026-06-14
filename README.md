@@ -45,5 +45,5 @@ A React password generator to generate random passwords based on selected length
 
 **Calculator:**  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvancedCalculator/
 
-**DarkLightMode:**  https://sukhwinder-webdev-code.github.io/portfolio/projects/toggleTheme/
+**DarkLightMode:**  https://toggle-theme-jbe8eyyf8-sukhwinder-s-projects.vercel.app
 
