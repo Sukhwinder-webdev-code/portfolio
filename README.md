@@ -39,11 +39,11 @@ A React password generator to generate random passwords based on selected length
 
 **hotelWebsite** :  https://sukhwinder-webdev-code.github.io/portfolio/projects/hotel/
 
-**MyToDoListApplication**: https://sukhwinder-webdev-code.github.io/portfolio/projects/advancedToDoList/
+**MyToDoListApplication**: https://advanced-to-do-list-2606bj5mx-sukhwinder-s-projects.vercel.app
 
-**BankingSysteApplication**:  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvanceBankingSystemApplication/
+**BankingSysteApplication**: https://advancebankingapplication-git-main-sukhwinder-s-projects.vercel.app
 
-**Calculator:**  https://sukhwinder-webdev-code.github.io/portfolio/projects/AdvancedCalculator/
+**Calculator:** https://advanced-calculator-cqzfff1rk-sukhwinder-s-projects.vercel.app
 
 **DarkLightMode:**  https://toggle-theme-jbe8eyyf8-sukhwinder-s-projects.vercel.app
 
