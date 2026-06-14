@@ -37,8 +37,7 @@ A React password generator to generate random passwords based on selected length
 **GitHub Repo:** https://github.com/Sukhwinder-webdev-code/React-Password-Generator
 
 
-**hotelWebsite** :  https://sukhwinder-webdev-code.github.io/portfolio/projects/hotel/
-
+**hotelWebsite** :   https://hotel-website-7jgeyaucm-sukhwinder-s-projects.vercel.app
 **MyToDoListApplication**: https://advanced-to-do-list-2606bj5mx-sukhwinder-s-projects.vercel.app
 
 **BankingSysteApplication**: https://advancebankingapplication-git-main-sukhwinder-s-projects.vercel.app
