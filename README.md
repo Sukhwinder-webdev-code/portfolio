@@ -38,7 +38,8 @@ A React password generator to generate random passwords based on selected length
 
 
 **hotelWebsite** :   https://hotel-website-7jgeyaucm-sukhwinder-s-projects.vercel.app
-**MyToDoListApplication**: https://advanced-to-do-list-2606bj5mx-sukhwinder-s-projects.vercel.app
+
+**MyToDoListApplication** : https://advanced-to-do-list-2606bj5mx-sukhwinder-s-projects.vercel.app
 
 **BankingSysteApplication**: https://advancebankingapplication-git-main-sukhwinder-s-projects.vercel.app
 
