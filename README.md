@@ -1,7 +1,8 @@
 # My Portfolio Website
 
 A responsive personal portfolio website showcasing my projects, skills, and contact information.
-
+- Live Demo: https://sukhwinder-webdev-code.github.io/portfolio/
+  
 ## Features
 - Responsive design for desktop and mobile
 - Dark/Light theme toggle
@@ -16,13 +17,7 @@ A responsive personal portfolio website showcasing my projects, skills, and cont
 - GitHub Pages for hosting
 - React
 
-## Author
-Sukhwinder Kaur  
-Email: sukhi.handa43@gmail.com  
-
-
 ## Projects
-Portfolio: https://sukhwinder-webdev-code.github.io/portfolio/
 
 ### Movie Review App
 A React app using the TMDB API to browse popular movies:-
@@ -36,7 +31,6 @@ A React password generator to generate random passwords based on selected length
 **Live Demo:** https://sukhwinder-webdev-code.github.io//React-Password-Generator/            
 **GitHub Repo:** https://github.com/Sukhwinder-webdev-code/React-Password-Generator
 
-
 **hotelWebsite** :   https://hotel-website-7jgeyaucm-sukhwinder-s-projects.vercel.app
 
 **MyToDoListApplication** : https://advanced-to-do-list-2606bj5mx-sukhwinder-s-projects.vercel.app
@@ -46,4 +40,10 @@ A React password generator to generate random passwords based on selected length
 **Calculator:** https://advanced-calculator-cqzfff1rk-sukhwinder-s-projects.vercel.app
 
 **DarkLightMode:**  https://toggle-theme-jbe8eyyf8-sukhwinder-s-projects.vercel.app
+
+## Author
+Sukhwinder Kaur  
+- Email: sukhi.handa43@gmail.com  
+- GitHub: https://github.com/sukhwinder-webdev-code
+- LinkedIn: |https://www.linkedin.com/in/sukhwinder-webdev/
 
