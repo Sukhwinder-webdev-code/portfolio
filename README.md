@@ -37,7 +37,7 @@ A React password generator to generate random passwords based on selected length
 
 **BankingSysteApplication**: https://advancebankingapplication-git-main-sukhwinder-s-projects.vercel.app
 
-**Calculator:** https://advanced-calculator-cqzfff1rk-sukhwinder-s-projects.vercel.app
+**Calculator:** https://advanced-calculator-lake.vercel.app
 
 **DarkLightMode:**  https://toggle-theme-jbe8eyyf8-sukhwinder-s-projects.vercel.app
 
