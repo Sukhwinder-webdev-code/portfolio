@@ -22,7 +22,7 @@ A responsive personal portfolio website showcasing my projects, skills, and cont
 ### Movie Review App
 A React app using the TMDB API to browse popular movies:-
 
-**Live Demo:** https://sukhwinder-webdev-code.github.io/React-Project/  
+**Live Demo:** https:/react-project-vy56-dmqf3aqyk-sukhwinder-s-projects.vercel.app 
 **GitHub Repo:** https://github.com/Sukhwinder-webdev-code/React-Project
 
 ### Password Generator App
